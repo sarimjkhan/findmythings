@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/itemAccessoryNameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Accessory Name"
+        android:textAppearance="?android:attr/textAppearanceLarge" 
+        android:textColor="@android:color/primary_text_dark_nodisable"
+        />
+		
+    <TextView
+        android:id="@+id/itemPlaceDetailsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Place Detail"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/itemDateTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/itemTimeTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/itemExtraDetailsTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Extra Details"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <ImageView
+        android:id="@+id/itemPreviewIV"
+        android:layout_width="94dp"
+        android:layout_height="100dp"
+        android:adjustViewBounds="true"
+        android:padding="10dp"
+        android:src="@android:drawable/btn_dialog" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Delete Current Accessory Memory" android:marqueeRepeatLimit="marquee_forever"/>
+
+</LinearLayout>
