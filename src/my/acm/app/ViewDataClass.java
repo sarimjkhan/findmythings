@@ -68,8 +68,7 @@ public class ViewDataClass extends Activity{
 		lv.setAdapter(la);
 		lv.setOnItemClickListener(new OnItemClickListener() {
 
-			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
-					long arg3) {
+			public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,long arg3) {
 				// TODO Auto-generated method stub
 				try
 				{
@@ -92,7 +91,7 @@ public class ViewDataClass extends Activity{
 	protected void onResume() {
 		// TODO Auto-generated method stub
 		super.onResume();
-onCreate(null);
+		onCreate(null);
 		
 	}
 	
